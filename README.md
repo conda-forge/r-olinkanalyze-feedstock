@@ -3,7 +3,7 @@ About r-olinkanalyze
 
 Home: https://CRAN.R-project.org/package=OlinkAnalyze
 
-Package license: GPL-3.0-only
+Package license: AGPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-olinkanalyze-feedstock/blob/main/LICENSE.txt)
 
