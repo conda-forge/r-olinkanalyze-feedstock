@@ -1,4 +1,4 @@
-{% set version = "3.1.0" %}
+{% set version = '3.2.0' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/OlinkAnalyze_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/OlinkAnalyze/OlinkAnalyze_{{ version }}.tar.gz
-  sha256: 61449f98a6712d1d00819c217b49530fe5f59a1f499aae22313da2202933ad32
+  sha256: fa1a7599a11ddf8d9a764bf4e69a3da6c5196fb8b58008627be72de161e6bedc
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  merge_build_host: True  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -40,10 +40,12 @@ requirements:
     - r-magrittr
     - r-readxl
     - r-rlang
+    - r-rstatix
     - r-stringr
     - r-tibble
     - r-tidyr
     - r-tidyselect
+    - r-zip
   run:
     - r-base >=4.0.0
     - r-broom
@@ -76,7 +78,7 @@ about:
   summary: A collection of functions to facilitate analysis of proteomic data from Olink, primarily NPX data that has been exported from Olink NPX Manager or MyData. The functions also work on QUANT data from Olink by log- transforming the QUANT data. The functions are focused on reading data, facilitating data wrangling
     and quality control analysis, performing statistical analysis and generating figures to visualize the results of the statistical analysis. The goal of this package is to help users extract biological insights from proteomic data run on the Olink platform.
   license_file:
-    - {{ environ["PREFIX"] }}/lib/R/share/licenses/AGPL-3
+    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/AGPL-3'
 
 extra:
   recipe-maintainers:
