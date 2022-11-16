@@ -3,7 +3,7 @@ About r-olinkanalyze
 
 Home: https://CRAN.R-project.org/package=OlinkAnalyze
 
-Package license: AGPL-3
+Package license: AGPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-olinkanalyze-feedstock/blob/main/LICENSE.txt)
 
@@ -143,5 +143,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@Olink-Proteomics](https://github.com/Olink-Proteomics)
+* [@AskPascal](https://github.com/AskPascal/)
 
