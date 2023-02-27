@@ -1,11 +1,11 @@
-About r-olinkanalyze
-====================
+About r-olinkanalyze-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-olinkanalyze-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=OlinkAnalyze
 
 Package license: AGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-olinkanalyze-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of functions to facilitate analysis of proteomic data from Olink, primarily NPX data that has been exported from Olink NPX Manager or MyData. The functions also work on QUANT data from Olink by log- transforming the QUANT data. The functions are focused on reading data, facilitating data wrangling and quality control analysis, performing statistical analysis and generating figures to visualize the results of the statistical analysis. The goal of this package is to help users extract biological insights from proteomic data run on the Olink platform.
 
