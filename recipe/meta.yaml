@@ -1,4 +1,4 @@
-{% set version = "3.6.2" %}
+{% set version = "3.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/OlinkAnalyze_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/OlinkAnalyze/OlinkAnalyze_{{ version }}.tar.gz
-  sha256: c28c560bb60dfe469d80d79ec2d701c22bd92ce412b9018f249b2e1fcfa341bc
+  sha256: 6cea7682a2acb83e4fb8fb976553ee5efb07d1500a3fa6b50f6152516f3c4566
 
 build:
   merge_build_host: true  # [win]
