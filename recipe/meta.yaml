@@ -1,6 +1,5 @@
 {% set version = "3.8.2" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-olinkanalyze
@@ -13,8 +12,7 @@ source:
   sha256: 7a9b463d7c30041e7ee07a2e6e7886bf9229bb2fc47d312714dd60b546bf0b45
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
