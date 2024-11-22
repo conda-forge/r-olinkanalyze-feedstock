@@ -1,4 +1,4 @@
-{% set version = "4.0.1" %}
+{% set version = "4.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/OlinkAnalyze_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/OlinkAnalyze/OlinkAnalyze_{{ version }}.tar.gz
-  sha256: 7d5ca31a805b6238e8b594b844a4d05dfe3059011aad7c04bd7e6366c96b6775
+  sha256: 600d56123c9a3f193cbd0f98bcea387d1b54584322e82f5436cfbf15fb30953f
 
 build:
   number: 0
