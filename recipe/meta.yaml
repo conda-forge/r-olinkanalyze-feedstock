@@ -1,4 +1,4 @@
-{% set version = "4.4.0" %}
+{% set version = "4.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/OlinkAnalyze_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/OlinkAnalyze/OlinkAnalyze_{{ version }}.tar.gz
-  sha256: 5cb359a2b01a8c378a20f53a36324268410690400cb0135b4b4d185c2eee2fe3
+  sha256: b35fd9daa857004893d8a924ba40ec39d52b33e127198a8f384bf932e8d8e0ac
 
 build:
   number: 0
@@ -74,8 +74,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=OlinkAnalyze
   license: AGPL-3.0-or-later
-  summary: A collection of functions to facilitate analysis of proteomic data from Olink, primarily NPX data that has been exported from Olink Software. The functions also work on QUANT data from Olink by log- transforming the QUANT data. The functions are focused on reading data, facilitating data wrangling and quality
-    control analysis, performing statistical analysis and generating figures to visualize the results of the statistical analysis. The goal of this package is to help users extract biological insights from proteomic data run on the Olink platform.
+  summary: A collection of functions to facilitate analysis of proteomic data from Olink, primarily NPX data that has been exported from Olink Software. The functions also work on QUANT data from Olink by log- transforming the QUANT data. The functions are focused on reading data, facilitating data wrangling and 
+    quality control analysis, performing statistical analysis and generating figures to visualize the results of the statistical analysis. The goal of this package is to help users extract biological insights from proteomic data run on the Olink platform.
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/AGPL-3
 
